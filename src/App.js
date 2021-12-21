@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       <Snowfall />
-      <StarrySky />
       <Lander />
+      <StarrySky />
     </>
   );
 }

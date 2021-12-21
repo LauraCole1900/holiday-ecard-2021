@@ -67,7 +67,7 @@ class StarrySky extends Component {
   render() {
     const { num } = this.state;
     return (
-      <div id="App">
+      <div id="App" style={{zIndex: -5}}>
         <svg id="sky">
           {[...Array(num)].map((x, y) => (
             <circle
@@ -82,7 +82,7 @@ class StarrySky extends Component {
             />
           ))}
         </svg>
-        <div id="shootingstars">
+        <div id="shootingstars" style={{zIndex: -4}}>
           {[...Array(60)].map((x, y) => (
             <div
               key={y}

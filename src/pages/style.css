@@ -16,7 +16,10 @@ body {
   color: var(--white);
   background-color: var(--red);
   border: 3px solid var(--white);
-  border-radius: 7px;
+  border-radius: 25px;
+}
+.genBtn:hover {
+  cursor: pointer;
 }
 
 .header {
