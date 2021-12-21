@@ -3,11 +3,13 @@
   --red: #ae0001;
   --burgundy: #880a1f;
   --pine: #002e00;
+  --midnight: #032c4b;
+  --blueGreenGrad: linear-gradient(to right, var(--midnight), var(--pine))
 }
 
 body {
   color: var(--white);
-  background-color: var(--pine);
+  background: var(--blueGreenGrad);
 }
 
 .genBtn {
