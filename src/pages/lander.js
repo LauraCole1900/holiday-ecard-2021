@@ -8,13 +8,13 @@ import "./style.css";
 
 const Lander = () => {
   const characters = ["Santa Claus", "Mrs. Claus", "Jack Frost", "Frosty", "Abominable Snowmonster", "Rudolph", "an elf", "Baby New Year", "Scrooge", "Clara", "Nutcracker Prince", "Sugar Plum Fairy"];
-  const animals = ["reindeer", "kangaroos", "goats", "cats", "dogs", "zebras", "camels", "capybaras", "beavers", "squirrels", "birds", "mice", "rats"]
+  const animals = ["reindeer", "kangaroos", "goats", "cats", "dogs", "zebras", "camels", "capybaras", "beavers", "squirrels", "birds", "mice", "rats", "polar bears", "penguins", "birds of paradise", "peacocks", "lions", "horses", "mules", "donkeys", "orangutans", "elephants", ""]
   const carolNames = ["in the bleak midwinter", "silent night", "away in a manger"]
   const singNouns = ["pine tree", "eggnog", "Yule log", "wreath", "garland", "poinsettia", "scarf", "hat", "menorah", "dreidl", "gelt", "sufganiyah", "hot chocolate", "candy cane", "fruitcake", "holly", "mistletoe", "gingerbread house", "kinara", "mishumaa sabaa", "kikombe cha umoja", "mkeka", "mazao", "muhindi", "zawadi", "nutcracker", "snow", "sleigh", "tinsel", "birds nest", "pickle"];
-  const plurNouns = ["lights", "candles", "cookies", "carrots", "latkes", "stockings", "skis", "bells", "ribbons", "presents", "snowflakes", "ornaments", "lists"];
+  const plurNouns = ["lights", "candles", "cookies", "carrots", "latkes", "stockings", "skis", "bells", "ribbons", "presents", "snowflakes", "ornaments", "lists", "nuts"];
   const colors = ["red", "green", "white", "silver", "gold", "black", "orange", "purple", "blue"]
   const verbs = ["crackled", "cackled", "sparkled", "checked", "laughed", "ran", "flew", "froze", "melted", "slid", "crunched", "said", "asked", "fell", "built", "tapped", "hung", "decorated", "baked", "made", "mixed", "drifted", "drove", "dove", "dripped", "burned", "twinkled", "fought", "clashed", "jingled", "rang", "sang", "broke", "shattered", "was", "stubbed", "slipped", "cleaned", "opened", "closed", "started", "stopped", "rolled", "grew", "mowed", "raked", "shoveled", "jumped"];
-  const adjectives = ["good", "bad", "cold", "hot", "lukewarm", "spiky", "soft", "clean", "dirty", "high", "low", "wet", "dry", "round", "square", "triangular", "fluffy", "damp", "moist", "bland", "flavorful", "foreboding", "welcoming", "feathery", ""];
+  const adjectives = ["good", "bad", "cold", "hot", "lukewarm", "spiky", "soft", "clean", "dirty", "high", "low", "wet", "dry", "round", "square", "triangular", "fluffy", "damp", "moist", "bland", "flavorful", "foreboding", "welcoming", "feathery", "sweet", "savory", "crunchy", "mushy", "al dente"];
   const adverbs = [];
   let chosenWords = [];
 
