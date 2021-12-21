@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
+import "./style.css";
 
 // Run random() for each blank
 // Push results to word array
@@ -11,9 +12,9 @@ const Lander = () => {
   const carolNames = ["in the bleak midwinter", "silent night", "away in a manger"]
   const singNouns = ["pine tree", "eggnog", "Yule log", "wreath", "garland", "poinsettia", "scarf", "hat", "menorah", "dreidl", "gelt", "sufganiyah", "hot chocolate", "candy cane", "fruitcake", "holly", "mistletoe", "gingerbread house", "kinara", "mishumaa sabaa", "kikombe cha umoja", "mkeka", "mazao", "muhindi", "zawadi", "nutcracker", "snow", "sleigh", "tinsel", "birds nest", "pickle"];
   const plurNouns = ["lights", "candles", "cookies", "carrots", "latkes", "stockings", "skis", "bells", "ribbons", "presents", "snowflakes", "ornaments", "lists"];
-  const colors = ["red", "green", "white", "silver", "gold", "black"]
-  const verbs = ["crackled", "cackled", "sparkled", "checked", "laughed", "ran", "flew", "froze", "melted", "slid", "crunched", "said", "asked", "fell", "built", "tapped", "hung", "decorated", "baked", "made", "mixed", "drifted", "drove", "dove", "dripped", "burned", "twinkled", "fought", "clashed", "jingled", "rang", "sang"];
-  const adjectives = [];
+  const colors = ["red", "green", "white", "silver", "gold", "black", "orange", "purple", "blue"]
+  const verbs = ["crackled", "cackled", "sparkled", "checked", "laughed", "ran", "flew", "froze", "melted", "slid", "crunched", "said", "asked", "fell", "built", "tapped", "hung", "decorated", "baked", "made", "mixed", "drifted", "drove", "dove", "dripped", "burned", "twinkled", "fought", "clashed", "jingled", "rang", "sang", "broke", "shattered", "was", "stubbed", "slipped", "cleaned", "opened", "closed", "started", "stopped", "rolled", "grew", "mowed", "raked", "shoveled", "jumped"];
+  const adjectives = ["good", "bad", "cold", "hot", "lukewarm", "spiky", "soft", "clean", "dirty", "high", "low", "wet", "dry", "round", "square", "triangular", "fluffy", "damp", "moist", "bland", "flavorful", "foreboding", "welcoming", "feathery", ""];
   const adverbs = [];
   let chosenWords = [];
 
@@ -23,13 +24,27 @@ const Lander = () => {
     chosenWords.push(word);
   }
 
-  return(
+  const generateStory = () => {
+
+  }
+
+  return (
     <>
       <Container>
         <Row>
-          <Col sm={12}>
+          <Col sm={12} className="d-flex justify-content-center header">
+            <h1>Welcome to Holiday 2021 Mad Libs!</h1>
+          </Col>
+        </Row>
+        <Row className="story">
+          <Col sm={{ span: 8, offset: 2 }}>
             <p>Winter had come.</p>
             <p></p>
+          </Col>
+        </Row>
+        <Row className="d-flex justify-content-center">
+          <Col sm="auto">
+            <Button onClick={generateStory} className="genBtn">Click to regenerate the story!</Button>
           </Col>
         </Row>
       </Container>
