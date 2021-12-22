@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/holiday-ecard-2021/static/css/main.16918623.css",
-    "main.js": "/holiday-ecard-2021/static/js/main.99f7cd15.js",
+    "main.js": "/holiday-ecard-2021/static/js/main.5ba2751c.js",
     "static/js/787.4cab3e26.chunk.js": "/holiday-ecard-2021/static/js/787.4cab3e26.chunk.js",
     "index.html": "/holiday-ecard-2021/index.html",
     "main.16918623.css.map": "/holiday-ecard-2021/static/css/main.16918623.css.map",
-    "main.99f7cd15.js.map": "/holiday-ecard-2021/static/js/main.99f7cd15.js.map",
+    "main.5ba2751c.js.map": "/holiday-ecard-2021/static/js/main.5ba2751c.js.map",
     "787.4cab3e26.chunk.js.map": "/holiday-ecard-2021/static/js/787.4cab3e26.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.16918623.css",
-    "static/js/main.99f7cd15.js"
+    "static/js/main.5ba2751c.js"
   ]
 }
