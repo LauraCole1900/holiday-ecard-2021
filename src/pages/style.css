@@ -1,10 +1,14 @@
 :root {
   --white: #fefff3;
+  --tan: #ddc898;
   --red: #ae0001;
   --burgundy: #880a1f;
+  --yellow: #ffd429;
   --pine: #002e00;
   --midnight: #032c4b;
-  --blueGreenGrad: linear-gradient(to right, var(--midnight), var(--pine))
+  --blueGreenGrad: linear-gradient(to right, var(--midnight), var(--pine));
+  --headerFont: "Rye", cursive;
+  --bodyFont: "Open Sans", sans-serif;
 }
 
 body {
@@ -12,14 +16,30 @@ body {
   background: var(--blueGreenGrad);
 }
 
+p {
+  font-family: var(--bodyFont);
+}
+
+.bright {
+  color: var(--yellow);
+}
+
+.center {
+  text-align: center;
+}
+
 .genBtn {
   color: var(--white);
   background-color: var(--red);
   border: 3px solid var(--white);
   border-radius: 25px;
+  margin-bottom: 15px;
 }
-.genBtn:hover {
+.genBtn:hover, .genBtn:active, .genBtn:focus {
   cursor: pointer;
+  color: var(--white);
+  background-color: var(--burgundy);
+  border: 3px solid var(--white);
 }
 
 .header {
@@ -27,6 +47,27 @@ body {
   background-color: var(--red);
   width: 100%;
   border-bottom: 15px solid var(--white);
+}
+
+.headerTxt {
+  font-family: var(--headerFont);
+}
+
+.orig {
+  display: none;
+}
+
+.showOrig:hover,
+.showOrig:hover > .orig,
+.showOrig:active,
+.showOrig:active > .orig {
+  cursor: pointer;
+  display: block;
+}
+
+.small {
+  color: var(--tan);
+  font-size: .75em;
 }
 
 .story {
