@@ -6,7 +6,7 @@ const Lander = () => {
   const [chosenWords, setChosenWords] = useState([]);
 
   const characters = ["Santa", "Mrs. Claus", "Jack Frost", "Frosty", "Abominable Snowmonster", "Rudolph", "Elf", "Baby New Year", "Scrooge", "Clara", "Nutcracker Prince", "Sugar Plum Fairy", "Krampus"];
-  const animals = ["reindeer", "kangaroos", "goats", "cats", "dogs", "zebras", "camels", "capybaras", "beavers", "squirrels", "mice", "rats", "polar bears", "penguins", "birds of paradise", "peacocks", "lions", "horses", "mules", "donkeys", "orangutans", "elephants", "possums", "huntsman spiders"]
+  const animals = ["reindeer", "kangaroos", "goats", "cats", "dogs", "zebras", "camels", "capybaras", "beavers", "squirrels", "mice", "rats", "polar bears", "penguins", "birds of paradise", "peacocks", "lions", "horses", "mules", "donkeys", "orangutans", "elephants", "possums", "huntsman spiders", "bison", "turkeys"]
   const singNouns = ["pine tree", "eggnog", "Yule log", "wreath", "garland", "poinsettia", "scarf", "hat", "menorah", "dreidl", "gelt", "sufganiyah", "hot chocolate", "candy cane", "fruitcake", "holly", "mistletoe", "gingerbread house", "kinara", "mishumaa sabaa", "kikombe cha umoja", "mkeka", "mazao", "muhindi", "zawadi", "nutcracker", "sleigh", "tinsel", "bird's nest", "pickle", "snowstorm", "surfboard", "fire", "light"];
   const plurNouns = ["lights", "candles", "cookies", "carrots", "latkes", "stockings", "skis", "bells", "ribbons", "presents", "snowflakes", "ornaments", "lists", "nuts", "patterns"];
   const colors = ["red", "green", "white", "silver", "gold", "black", "orange", "purple", "blue"]
