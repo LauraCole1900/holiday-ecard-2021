@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import anime from "animejs/lib/anime.es.js";
 import "./style.css";
 
-// Twinkling Night Sky by Sharna
+// Twinkling Night Sky by Sharna Hossain
 
 class StarrySky extends Component {
   state = {
